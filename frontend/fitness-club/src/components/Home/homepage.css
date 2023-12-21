@@ -1,0 +1,19 @@
+.HomePageImageCard {
+  transition: all 0.4s ease-in-out;
+  border-radius: 20px;
+}
+
+.HomePageImageCard:hover {
+  transform: scale(1.05);
+}
+
+.HomePageImageCardTeam {
+  transition: all 0.4s ease-in-out;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.HomePageImageCardTeam:hover {
+  transform: scale(1.09);
+  background-color: #e8e8e8;
+}

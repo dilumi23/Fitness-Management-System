@@ -1,0 +1,17 @@
+.weightLineChart {
+  justify-content: center !important;
+  width: 95% !important;
+}
+
+.weightLineChart {
+  transition: all 0.4s ease-in-out;
+}
+.weightLineChart:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 770px) {
+  .weightLineChart {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,9 @@
+.articleColumn {
+  padding: 10px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .articleColumn {
+    padding: 10px 0px;
+  }
+}

@@ -1,0 +1,49 @@
+.headerOptions {
+  transition: all 0.4s ease-in-out;
+}
+
+.headerOptions:hover {
+  transform: scale(1.09);
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headericonDumbell {
+  color: rgba(199, 199, 199, 0.55);
+}
+
+.headerDumbell:hover .headericonDumbell {
+  color: rgba(33, 116, 194, 0.8);
+}
+
+.iconheaderMeal {
+  color: rgba(199, 199, 199, 0.55);
+}
+
+.headerMeal:hover .iconheaderMeal {
+  color: rgba(86, 192, 130, 0.8);
+}
+
+.iconheaderRequest {
+  color: rgba(199, 199, 199, 0.55);
+}
+
+.headerRequest:hover .iconheaderRequest {
+  color: rgba(28, 164, 182, 0.8);
+}
+
+.iconheaderShopping {
+  color: rgba(199, 199, 199, 0.55);
+}
+
+.headerShopping:hover .iconheaderShopping {
+  color: rgba(226, 190, 31, 0.8);
+}
+
+.NotSelected {
+  background-color: black;
+}

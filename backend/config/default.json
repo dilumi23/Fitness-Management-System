@@ -1,0 +1,5 @@
+{
+  "mongoURL": "mongodb+srv://dilumikeshini:dilumikeshini@cluster0.zaiq8ul.mongodb.net/test",
+
+  "jwtSecret": "mysecrettoken"
+}

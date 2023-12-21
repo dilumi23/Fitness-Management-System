@@ -1,0 +1,42 @@
+.flex-box {
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.flex-wrap-wrap {
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+
+.flex-justify-center {
+  -webkit-box-pack: center !important;
+  -moz-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.flex-align-center {
+  -webkit-box-align: center !important;
+  -moz-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.flex-box > div[class*="col"] {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.HomePageImageCard {
+  transition: all 0.4s ease-in-out;
+}
+
+.HomePageImageCard:hover {
+  transform: scale(1.05);
+}

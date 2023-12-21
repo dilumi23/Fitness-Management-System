@@ -1,0 +1,68 @@
+/*Empty*/
+.blinkingEmpty {
+  animation: blinkingTextEmpty 1.3s infinite;
+}
+
+@keyframes blinkingTextEmpty {
+  0% {
+    color: #f008dc;
+  }
+  49% {
+    color: #f008dc;
+  }
+  60% {
+    color: #f008dc;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #f008dc;
+  }
+}
+
+/*Healthy*/
+
+.blinkingHealthy {
+  animation: blinkingTextHealthy 1.3s infinite;
+}
+@keyframes blinkingTextHealthy {
+  0% {
+    color: #10c716;
+  }
+  49% {
+    color: #10c716;
+  }
+  60% {
+    color: #10c716;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #10c716;
+  }
+}
+
+/*Underweight and OverWeigth*/
+
+.blinkingUnderOverWeight {
+  animation: blinkingTextUnderOverWeight 1.3s infinite;
+}
+@keyframes blinkingTextUnderOverWeight {
+  0% {
+    color: #ca2929;
+  }
+  49% {
+    color: #ca2929;
+  }
+  60% {
+    color: #ca2929;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #ca2929;
+  }
+}
